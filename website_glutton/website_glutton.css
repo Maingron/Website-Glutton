@@ -1,0 +1,30 @@
+#monster {
+    background:yellow;
+    z-index:10000;
+    height:40px;
+    width:40px;
+    display:inline-block;
+    border-radius:50%;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:.1s;
+}
+
+.monsterthing {
+    z-index:10010;
+    display:inline;
+    position:absolute;
+    background:transparent !important;
+    background-color:transparent !important;
+    outline:1px solid purple;
+}
+
+.monsterhide {
+    background:#fff;
+    height:40px;
+    width:40px;
+    position:absolute;
+    z-index:9999;
+
+}
