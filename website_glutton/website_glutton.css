@@ -1,5 +1,5 @@
 #monster {
-    background:yellow;
+    background:#ff0;
     z-index:10000;
     height:40px;
     width:40px;
@@ -26,5 +26,4 @@
     width:40px;
     position:absolute;
     z-index:9999;
-
 }
